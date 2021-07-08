@@ -1,0 +1,20 @@
+{
+  "name": "discord-janitor",
+  "version": "1.0.0",
+  "description": "Set up message cleaning rules with optional timeouts, etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "janitor"
+  ],
+  "author": "Alan Panayotov",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0"
+  }
+}
