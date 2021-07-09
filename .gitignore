@@ -1,4 +1,5 @@
-data.json # action entries are stored here
+# action entries are stored here
+data.json
 
 # Logs
 logs
