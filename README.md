@@ -25,7 +25,7 @@ Examples:
 that contain the word `alice` after 1 second.
 
 ## TODO
-
+- [ ] major refactor
 - [ ] wildcard arguments
 - [ ] custom command prefix
 - [ ] add rest of filter CRUD operations
