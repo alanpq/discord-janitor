@@ -47,6 +47,10 @@ const processCmd = (msg) => { // TODO: completely replace this, this sucks (comm
 	switch(split[0]) {
 		case prefix + "add":
 			const args = split.slice(1); // type, author, ..., timeout
+			if(args.length === 0) {
+				msg.reply("No arguments specified!");
+				return;
+			}
 			const type = args[0].toLowerCase();
 			const reqs = actionParams[type];
 			if(!reqs) {
