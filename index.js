@@ -14,7 +14,7 @@ const actionParams = {
 }
 
 const actionTypes = {
-	simple: (msg, action) => true,
+	simple: () => true,
 	match: (msg, action) => msg.content.indexOf(action.match) !== -1,
 };
 
